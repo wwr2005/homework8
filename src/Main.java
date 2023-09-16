@@ -8,7 +8,7 @@ public class Main {
         for (int i = 0; i < array1.length; i++) {
             array1[i] = i + 1;
         }
-double[] array2 = {1.57, 7.654, 9.986};
+        double[] array2 = {1.57, 7.654, 9.986};
         boolean[] array3 = {true, false};
 
         for (int i = 0; i < array1.length; i++) {
@@ -59,7 +59,7 @@ double[] array2 = {1.57, 7.654, 9.986};
             if (array1[i] % 2 == 1) {
                 array1[i]++;
             }
-            }
-        System.out.println(Arrays.toString(array1));
         }
+        System.out.println(Arrays.toString(array1));
     }
+}
